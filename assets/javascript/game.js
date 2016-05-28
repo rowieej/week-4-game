@@ -1,8 +1,4 @@
-
-<script>
-<script type="text/javascript" src="assets/javascript/game.js">
-	
-	$(document).ready(function(){
+$(document).ready(function() {
 /*
 
 1)Player chooses player by clicking.  Create 'on click' function that will
@@ -36,16 +32,15 @@ clicked:
 
 	CREATE RESET BUTTON TO:
 			move all characters back to original spot.  start game again.
+
+	var healthPoints = [];
+	var defenderPoints = [];
+	var characters = [];
+
 */
-	var health points = 
-	var defender points =
-	var characters = newArray;
-	var newArray = (i=0; i > characters.length; i++);
 
 
-
-
-			$("#luke").on("click", function(){
+		  $("#luke").on("click", function(){
 						$("#luke").appendTo('.battleArea');
 					});
 			/*$(".thumbnail").on("click", function(){
@@ -60,7 +55,8 @@ clicked:
 })
 
 
-	</script>
+
+
 
 
 
